@@ -5,6 +5,6 @@ export class Movie {
     director: string;
     sinopsis: string;
     genero: string;
-    duracion: string;
+    duración: string;
     trailer: string;
 }

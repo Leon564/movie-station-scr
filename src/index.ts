@@ -24,7 +24,7 @@ const main = async (page: any) => {
           return err;
         });
 
-      console.log(index + " / " + movies.length);
+      console.log(index+1 + " / " + movies.length);
 
       if (index === movies.length - 1) {//3 segundos despues de completar todas las peticiones se cierra el browser
       setTimeout(async () => {

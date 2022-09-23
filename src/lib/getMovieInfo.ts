@@ -52,7 +52,7 @@ const getMovieInfo = async (
     ?.split(",")[0]
     ?.trim();
   if (!movie.genero) return;
-  movie.duracion = $("div[class='meta-body-item meta-body-info']")
+  movie.duración = $("div[class='meta-body-item meta-body-info']")
     .text()
     .trim()
     .split("/")[1]
